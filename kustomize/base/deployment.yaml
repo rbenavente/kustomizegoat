@@ -6,7 +6,7 @@ metadata:
   name: kustomizegoat
   namespace: kustomizegoat
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: kustomizegoat
