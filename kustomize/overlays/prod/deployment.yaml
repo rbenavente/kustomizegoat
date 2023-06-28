@@ -4,6 +4,7 @@ metadata:
   name: kustomizegoat
   namespace: kustomizegoat
 spec:
+  replicas: 2
   template:
     metadata:
       annotations:
